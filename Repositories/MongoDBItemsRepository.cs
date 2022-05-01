@@ -4,6 +4,10 @@ namespace Catalog.Repositories
 {
     public class MongoDBItemsRepository : IItemsRepository
     {
+        public MongoDBItemsRepository()
+        {
+            
+        }
         public void CreateItem(Item item)
         {
             throw new NotImplementedException();
