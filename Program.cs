@@ -25,7 +25,7 @@ builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
 
 builder.Services.AddSingleton<IItemsRepository, MongoDBItemsRepository>();
 
-builder.Services.AddSingleton<IItemsRepository,InMemItemsRepository>();
+// builder.Services.AddSingleton<IItemsRepository,InMemItemsRepository>();
 
 var app = builder.Build();
 
