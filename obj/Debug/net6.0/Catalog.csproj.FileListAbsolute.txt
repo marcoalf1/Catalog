@@ -41,3 +41,6 @@ D:\Proyectos Desarrollo\2022\Catalog\bin\Debug\net6.0\runtimes\win\native\snappy
 D:\Proyectos Desarrollo\2022\Catalog\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 D:\Proyectos Desarrollo\2022\Catalog\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 D:\Proyectos Desarrollo\2022\Catalog\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\Proyectos Desarrollo\2022\Catalog\bin\Debug\net6.0\HealthChecks.MongoDb.dll
+D:\Proyectos Desarrollo\2022\Catalog\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Proyectos Desarrollo\2022\Catalog\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
