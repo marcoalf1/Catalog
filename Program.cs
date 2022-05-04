@@ -43,8 +43,6 @@ builder.Services.AddHealthChecks()
         timeout: TimeSpan.FromSeconds(3),
         tags: new[] {"ready"});
 
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -59,6 +57,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
 
 app.MapHealthChecks("/health/ready", new HealthCheckOptions{
     Predicate = (check) => check.Tags.Contains("ready"),
