@@ -58,7 +58,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-
 app.MapHealthChecks("/health/ready", new HealthCheckOptions{
     Predicate = (check) => check.Tags.Contains("ready"),
     ResponseWriter = async(context, report) => 
