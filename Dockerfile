@@ -17,5 +17,6 @@ RUN dotnet publish "Catalog.csproj" -c Release -o /app/publish /p:UseAppHost=fal
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+#COPY --from=publish /app/publish .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "Catalog.dll"]

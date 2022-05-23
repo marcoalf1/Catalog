@@ -53,7 +53,7 @@ if (app.Environment.IsDevelopment())
     app.UseHttpsRedirection(); 
 }
 
-
+// https://stackoverflow.com/questions/65960211/docker-build-pull-access-denied-repository-does-not-exist-or-may-require
 
 app.UseAuthorization();
 
